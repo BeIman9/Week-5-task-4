@@ -1,0 +1,167 @@
+* {
+    /*box-sizing: border-box;
+    color: black;*/
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+body * {
+    /*padding: 25px 15px;
+    border: 1px solid black;*/
+    text-align: center;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30pt;
+    color: cadetblue;
+}
+
+h2 {
+    font-size: 30pt;
+    color: black;
+}
+
+h3 {
+    font-size: 20pt;
+    color: black;
+}
+
+h4 {
+    font-size: 14pt;
+    color: black;
+    background-color: white;
+}
+
+.menu {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.nav {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+    display: block;
+    border: 1px dashed #333;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+
+}
+
+nav .menu:hover {
+    text-decoration: underline;
+}
+
+#parag {
+    font-size: 18pt;
+    text-align: justify;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.main {
+    background-color: rgb(238, 238, 185);
+    width: 65%;
+    /*height: 25vw;*/
+    float: left;
+}
+
+#rec1 {
+    height: 300px;
+    width: 440px;
+}
+
+.section1 {
+    background-color: rgb(243, 219, 139);
+    width: 65%;
+    margin-top: 10px;
+}
+
+#rec2 {
+    height: 200px;
+    width: 250px;
+}
+
+#catalog DIV {
+    width: 350px;
+    height: 300px;
+    margin: 0 10px 20px 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+A:visited {
+    color: rgb(171, 38, 197);
+}
+
+A:hover {
+    color: yellowgreen;
+}
+
+P {
+    text-indent: 1em;
+}
+
+.aside1 {
+    background-color: lightblue;
+    width: 35%;
+    float: right;
+}
+
+.slider {
+    width: 540px;
+    height: 400px;
+    background: url(Rectangle4.png);
+    margin: 100 auto;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background: url(Rectangle6.png);
+    }
+
+    50% {
+        background: url(Rectangle7.png);
+    }
+
+    75% {
+        background: url(Rectangle8.png);
+    }
+
+    100% {
+        background: url(Rectangle9.png);
+    }
+}
+
+.footer-main {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+
+}
